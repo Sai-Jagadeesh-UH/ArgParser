@@ -1,0 +1,17 @@
+[project]
+name = "passman"
+version = "0.1.0"
+description = "A simple lightweight password manager"
+readme = "README.md"
+authors = [
+    { name = "Sai", email = "ysaijagadeeshuh@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+passman = "passman:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
