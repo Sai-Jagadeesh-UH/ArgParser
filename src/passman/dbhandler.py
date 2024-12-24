@@ -1,6 +1,6 @@
 import shelve
 import pyperclip
-from itemclass import Item
+from .itemclass import Item
 
 
 def add_item(name, args):
